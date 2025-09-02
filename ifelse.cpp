@@ -2,6 +2,16 @@
 using namespace std;
 
 int main() {
-    cout << "Hello world" << endl;
+    int nilai;
+
+    cout << "Masukkan nilai kamu: ";
+    cin >> nilai;
+
+    if (nilai > 81) {
+        cout << "Nilai kamu A!" << endl;
+    } else {
+        cout << "Nilai kamu B!" << endl;
+    }
+
     return 0;
 }
